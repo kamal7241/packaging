@@ -1,3 +1,3 @@
 export default (...logText )=>{
-    console.log("package method works fine" , logText);
+    console.log("package method works fine" , ...logText);
 }
