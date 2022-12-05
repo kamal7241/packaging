@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "npm version minor"
+    "prerelease": "npm version minor",
+    "release":"npm publish"
   },
   "keywords": [],
   "author": "",
